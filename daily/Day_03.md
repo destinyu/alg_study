@@ -76,9 +76,9 @@ public:
 ```
 2.直接将栈底元素增加val的操作的时间复杂度为O(k)，这里可以对该操作做一些优化，使其复杂度变为O(1)。设定一个辅助数组add用来存储增量。空间换时间。因为只有在出栈操作时才会需要知道最后增加后的结果。在未出栈之前不需要知道原本栈的数据，将val存储在对应的（下图中不对应，但是出栈时加栈顶即可，不需要对应）add数组中即可。
 inc操作：
-![image-20201116100432034](C:\Users\destinyu\AppData\Roaming\Typora\typora-user-images\image-20201116100432034.png)
+![inc](https://github.com/destinyu/alg_study/blob/master/pic/inc.png)
 
-pop操作：![image-20201116100617965](C:\Users\destinyu\AppData\Roaming\Typora\typora-user-images\image-20201116100617965.png)
+pop操作：![pop](https://github.com/destinyu/alg_study/blob/master/pic/pop.png)
 
 
 ``` c++
