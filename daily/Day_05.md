@@ -147,4 +147,4 @@ int front;
 ```
 ### 摊还分析
 
-![image-20201117204327642](C:\Users\destinyu\AppData\Roaming\Typora\typora-user-images\image-20201117204327642.png)
+![average_analysis](https://github.com/destinyu/alg_study/blob/master/pic/average_analysis.png)
