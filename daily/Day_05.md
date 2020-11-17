@@ -145,6 +145,7 @@ int front;
     }
 };
 ```
+
 ### 摊还分析
 
 ![average_analysis](https://github.com/destinyu/alg_study/blob/master/pic/average_analysis.png)
